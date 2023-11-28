@@ -1,0 +1,13 @@
+version: '3.8'
+
+
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - ./scripts_sql.sql:/docker-entrypoint-initdb.d/scripts_sql.sql
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_USER: "postgres"
+    ports:
+      - "5432:5432"

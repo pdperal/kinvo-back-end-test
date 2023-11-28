@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "aCaW8i2OsjYQ86sC3goKJFNDnfDWj6wwE0tiDftpEu2H7ZD+aJkY1ixpOqlHzKb8zb4go0Z52y1R9+ipOnhWwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pep90\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\pep90\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
+    "C:\\Users\\pep90\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\pep90\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\pep90\\.nuget\\packages\\mediatr.extensions.autofac.dependencyinjection\\11.2.0\\mediatr.extensions.autofac.dependencyinjection.11.2.0.nupkg.sha512",
+    "C:\\Users\\pep90\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\pep90\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
