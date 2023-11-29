@@ -117,17 +117,17 @@
           }
         }
       },
-      "Domain/1.0.0": {
+      "Aliquota.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "FluentValidation": "11.8.1"
         },
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Aliquota.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Aliquota.Domain.dll": {}
         }
       }
     }
@@ -359,15 +359,15 @@
         "postgresql.png"
       ]
     },
-    "Domain/1.0.0": {
+    "Aliquota.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/Aliquota.Domain.csproj",
+      "msbuildProject": "../Domain/Aliquota.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Domain >= 1.0.0",
+      "Aliquota.Domain >= 1.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
@@ -381,9 +381,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj",
-      "projectName": "Infra",
-      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj",
+      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj",
+      "projectName": "Aliquota.Infra",
+      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj",
       "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\obj\\",
       "projectStyle": "PackageReference",
@@ -408,8 +408,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj"
+            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj": {
+              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj"
             }
           }
         }

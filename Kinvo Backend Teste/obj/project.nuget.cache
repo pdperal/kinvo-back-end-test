@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRRl5z7XtdttFkKPNdbjrAeMoDOlBTDDz3Wo8VDmt7FGjq/BgUsbShcfbqOVR5peMCibnXQAbBqBZAtBk7truQ==",
+  "dgSpecHash": "XE+rc9sSxfzWXETiS5VWjSqEEmwGJP0EN8dkJvZ6SUrQ50sdM3v6uGb4x14o65KmWnknefZlzmPiixl1Whn88w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Kinvo Backend Teste.csproj",
+  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Aliquota.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pep90\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\pep90\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",

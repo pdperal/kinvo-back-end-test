@@ -7,10 +7,13 @@ namespace Domain.Entities
         public decimal FaixaIR { get => CalcularFaixaIR(); }
         public decimal ValorImposto { get => CalcularValorImposto(); }
         public decimal RendimentoBruto { get => CalcularRendimentoBruto(); }
-        public decimal PercentualRendimentoMensalProduto { get; set; }
+        public decimal PercentualRendimentoAnualProduto { get; set; }
 
         public Aplicacao(Guid id, Guid idProduto, decimal valor, DateTime dataAplicacao)
-            : base(id, idProduto, dataAplicacao, valor, Enum.TipoMovimentacaoEnum.Aplicacao) { }
+            : base(id, idProduto, dataAplicacao, valor, Enum.TipoMovimentacaoEnum.Aplicacao) 
+        {
+
+        }
 
         private decimal CalcularFaixaIR()
         {
@@ -39,7 +42,7 @@ namespace Domain.Entities
 
             for (int i = 0; i < periodoEmMeses; i++)
             {
-                valor = +(valor * PercentualRendimentoMensalProduto);
+                valor =+ (valor * (PercentualRendimentoAnualProduto/12));
             }
 
             return valor;

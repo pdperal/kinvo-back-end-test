@@ -23,7 +23,7 @@ namespace Infra.Persistence.Repositories
             var conn = await dataSource.OpenConnectionAsync();
             try
             {
-                var cmd = new NpgsqlCommand("insert into public.aplicacao (id, id_produto, valor, data_aplicacao) values (@p1, @p2, @p3, @p4)", conn)
+                var cmd = new NpgsqlCommand("insert into public.aplicacao (id, id_produto, valor, data) values (@p1, @p2, @p3, @p4)", conn)
                 {
                     Parameters =
                     {
@@ -96,21 +96,25 @@ namespace Infra.Persistence.Repositories
                 var cmd = new NpgsqlCommand("select a.valor, a.data_aplicacao, a.tipo_movimentacao  " +
                     " from public.movimentacao a inner join public.produto p on a.id_produto = p.id " +
                     $"where p.id = '{id}' " +
-                    $"and a.tipo_movimentacao = {"teste"}", conn);
+                    $"and a.tipo_movimentacao = '{nameof(TipoMovimentacaoEnum.Aplicacao)}'", conn);
                 using var reader = await cmd.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
-                    result.Add(new Aplicacao()
-                    {
-                        //Valor = reader.GetDecimal(0),
-                        //Data = reader.GetDateTime(1),
-                        //TipoMovimentacao = reader.GetString(2) switch
-                        //{
-                        //    "Aplicacao" => TipoMovimentacaoEnum.Aplicacao,
-                        //    "Resgate" => TipoMovimentacaoEnum.Resgate,
-                        //}
-                    });
+                    //result.Add(new Aplicacao(
+                    //    id: Guid.Parse(reader.GetString(0)), 
+                    //    idProduto:, 
+                    //    valor:, 
+                    //    dataAplicacao: )
+                    
+                    //    //Valor = reader.GetDecimal(0),
+                    //    //Data = reader.GetDateTime(1),
+                    //    //TipoMovimentacao = reader.GetString(2) switch
+                    //    //{
+                    //    //    "Aplicacao" => TipoMovimentacaoEnum.Aplicacao,
+                    //    //    "Resgate" => TipoMovimentacaoEnum.Resgate,
+                    //    //}
+                    //);
                 }
             }
             catch

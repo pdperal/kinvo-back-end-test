@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinvo Backend Teste", "Kinvo Backend Teste\Kinvo Backend Teste.csproj", "{5D6C1101-C565-4934-AD48-C1C939D6FCA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aliquota.API", "Kinvo Backend Teste\Aliquota.API.csproj", "{5D6C1101-C565-4934-AD48-C1C939D6FCA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7E3AB18D-BBCF-4D27-B7CE-468B14AC7175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aliquota.Domain", "Domain\Aliquota.Domain.csproj", "{7E3AB18D-BBCF-4D27-B7CE-468B14AC7175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{20EEDE3B-9D39-43B3-9266-34A6D9B88E81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aliquota.Application", "Application\Aliquota.Application.csproj", "{20EEDE3B-9D39-43B3-9266-34A6D9B88E81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{5EA1F4CF-F14E-42F8-9435-1F96B42955BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aliquota.Infra", "Infra\Aliquota.Infra.csproj", "{5EA1F4CF-F14E-42F8-9435-1F96B42955BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

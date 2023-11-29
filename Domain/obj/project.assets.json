@@ -54,9 +54,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj",
+      "projectName": "Aliquota.Domain",
+      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj",
       "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\obj\\",
       "projectStyle": "PackageReference",

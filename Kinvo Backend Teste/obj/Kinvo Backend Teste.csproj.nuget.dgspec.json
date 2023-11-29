@@ -4,12 +4,12 @@
     "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Kinvo Backend Teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj": {
+    "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj",
-        "projectName": "Application",
-        "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj",
+        "projectName": "Aliquota.Application",
+        "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj",
         "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -34,8 +34,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj"
+              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj": {
+                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj"
               }
             }
           }
@@ -75,12 +75,12 @@
         }
       }
     },
-    "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj": {
+    "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj",
+        "projectName": "Aliquota.Domain",
+        "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj",
         "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -142,12 +142,12 @@
         }
       }
     },
-    "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj": {
+    "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj",
-        "projectName": "Infra",
-        "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj",
+        "projectName": "Aliquota.Infra",
+        "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj",
         "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\obj\\",
         "projectStyle": "PackageReference",
@@ -172,8 +172,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj"
+              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj": {
+                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj"
               }
             }
           }
@@ -256,11 +256,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj"
+              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj": {
+                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj"
               },
-              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj"
+              "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj": {
+                "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj"
               }
             }
           }

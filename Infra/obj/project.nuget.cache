@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vQAB33RFP4h63fOoCb5iaOKt+E70teFHyiYKusIb2JDnTUF50NmwgtQ2pbIERMxKaFYJHXaj5UHZ3R9jm1hG+g==",
+  "dgSpecHash": "GUMZwwbMGR+83fIJpFr8RCSSd5RIkRizObQGovNJCjkeBD9lDXnFPUKKzHFpJkRhg6QZdgQyu+9mNBGqNHZo0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pep90\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\pep90\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -299,48 +299,48 @@
           }
         }
       },
-      "Application/1.0.0": {
+      "Aliquota.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Domain": "1.0.0",
+          "Aliquota.Domain": "1.0.0",
           "MediatR.Extensions.Autofac.DependencyInjection": "11.2.0"
         },
         "compile": {
-          "bin/placeholder/Application.dll": {}
+          "bin/placeholder/Aliquota.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Application.dll": {}
+          "bin/placeholder/Aliquota.Application.dll": {}
         }
       },
-      "Domain/1.0.0": {
+      "Aliquota.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "FluentValidation": "11.8.1"
         },
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Aliquota.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Aliquota.Domain.dll": {}
         }
       },
-      "Infra/1.0.0": {
+      "Aliquota.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Domain": "1.0.0",
+          "Aliquota.Domain": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Npgsql": "7.0.6"
         },
         "compile": {
-          "bin/placeholder/Infra.dll": {}
+          "bin/placeholder/Aliquota.Infra.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infra.dll": {}
+          "bin/placeholder/Aliquota.Infra.dll": {}
         }
       }
     }
@@ -1013,26 +1013,26 @@
         "version.txt"
       ]
     },
-    "Application/1.0.0": {
+    "Aliquota.Application/1.0.0": {
       "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
+      "path": "../Application/Aliquota.Application.csproj",
+      "msbuildProject": "../Application/Aliquota.Application.csproj"
     },
-    "Domain/1.0.0": {
+    "Aliquota.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/Aliquota.Domain.csproj",
+      "msbuildProject": "../Domain/Aliquota.Domain.csproj"
     },
-    "Infra/1.0.0": {
+    "Aliquota.Infra/1.0.0": {
       "type": "project",
-      "path": "../Infra/Infra.csproj",
-      "msbuildProject": "../Infra/Infra.csproj"
+      "path": "../Infra/Aliquota.Infra.csproj",
+      "msbuildProject": "../Infra/Aliquota.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Application >= 1.0.0",
-      "Infra >= 1.0.0",
+      "Aliquota.Application >= 1.0.0",
+      "Aliquota.Infra >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.9",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -1044,9 +1044,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Kinvo Backend Teste.csproj",
-      "projectName": "Kinvo Backend Teste",
-      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Kinvo Backend Teste.csproj",
+      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Aliquota.API.csproj",
+      "projectName": "Aliquota.API",
+      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\Aliquota.API.csproj",
       "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Kinvo Backend Teste\\obj\\",
       "projectStyle": "PackageReference",
@@ -1072,11 +1072,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj"
+            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj": {
+              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj"
             },
-            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Infra.csproj"
+            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj": {
+              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Infra\\Aliquota.Infra.csproj"
             }
           }
         }

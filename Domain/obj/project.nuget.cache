@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GrWvB9EDJeqn9DNrmK0pj+7/YV9EHWPdR0u/3CovZ428pL3hooKdeAZVWQoZppgpFF3RbE1X7ggggpeulOQHnA==",
+  "dgSpecHash": "Dd2+SKdMnzCNSsy7A0uHjmmDggOf1t19wvkxga36DaE/h1Qiob7Ka1fdzWCFIQ3qAsc1Xkq8NH8xi8/4k7lNDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pep90\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512"
   ],

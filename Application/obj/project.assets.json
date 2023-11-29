@@ -107,17 +107,17 @@
           }
         }
       },
-      "Domain/1.0.0": {
+      "Aliquota.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "FluentValidation": "11.8.1"
         },
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Aliquota.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Aliquota.Domain.dll": {}
         }
       }
     }
@@ -262,15 +262,15 @@
         "version.txt"
       ]
     },
-    "Domain/1.0.0": {
+    "Aliquota.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/Aliquota.Domain.csproj",
+      "msbuildProject": "../Domain/Aliquota.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Domain >= 1.0.0",
+      "Aliquota.Domain >= 1.0.0",
       "MediatR.Extensions.Autofac.DependencyInjection >= 11.2.0"
     ]
   },
@@ -281,9 +281,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj",
-      "projectName": "Application",
-      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj",
+      "projectName": "Aliquota.Application",
+      "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\Aliquota.Application.csproj",
       "packagesPath": "C:\\Users\\pep90\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Application\\obj\\",
       "projectStyle": "PackageReference",
@@ -308,8 +308,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Domain.csproj"
+            "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj": {
+              "projectPath": "C:\\Users\\pep90\\source\\repos\\Kinvo Backend Teste\\Domain\\Aliquota.Domain.csproj"
             }
           }
         }
