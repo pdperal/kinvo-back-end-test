@@ -4,15 +4,16 @@ namespace Domain.Entities
 {
     public class Aplicacao : Movimentacao
     {
+        public decimal SaldoAplicacao { get; set; }
         public decimal FaixaIR { get => CalcularFaixaIR(); }
         public decimal ValorImposto { get => CalcularValorImposto(); }
         public decimal RendimentoBruto { get => CalcularRendimentoBruto(); }
         public decimal PercentualRendimentoAnualProduto { get; set; }
 
-        public Aplicacao(Guid id, Guid idProduto, decimal valor, DateTime dataAplicacao)
-            : base(id, idProduto, dataAplicacao, valor, Enum.TipoMovimentacaoEnum.Aplicacao) 
+        public Aplicacao(Guid id, Guid idProduto, decimal saldoAplicacao, decimal valorAplicacao, DateTime dataAplicacao)
+            : base(id, idProduto, dataAplicacao, valorAplicacao, Enum.TipoMovimentacaoEnum.Aplicacao) 
         {
-
+            SaldoAplicacao = saldoAplicacao;
         }
 
         private decimal CalcularFaixaIR()

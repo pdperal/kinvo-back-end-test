@@ -23,14 +23,16 @@ namespace Infra.Persistence.Repositories
             var conn = await dataSource.OpenConnectionAsync();
             try
             {
-                var cmd = new NpgsqlCommand("insert into public.aplicacao (id, id_produto, valor, data) values (@p1, @p2, @p3, @p4)", conn)
+                var cmd = new NpgsqlCommand("insert into public.aplicacao (id, id_produto, saldo_aplicacao, valor_aplicacao, data) " +
+                    " values (@p1, @p2, @p3, @p4, p5)", conn)
                 {
                     Parameters =
                     {
                         new("p1", aplicacao.Id),
                         new("p2", aplicacao.IdProduto),
                         new("p3", aplicacao.ValorMovimentacao),
-                        new("p4", aplicacao.DataMovimentacao),
+                        new("p4", aplicacao.ValorMovimentacao),
+                        new("p5", aplicacao.DataMovimentacao),
                     }
                 };
 
@@ -93,28 +95,21 @@ namespace Infra.Persistence.Repositories
 
             try
             {
-                var cmd = new NpgsqlCommand("select a.valor, a.data_aplicacao, a.tipo_movimentacao  " +
-                    " from public.movimentacao a inner join public.produto p on a.id_produto = p.id " +
+                var cmd = new NpgsqlCommand("select a.id, a.id_produto, a.saldo_aplicacao, a.valor_aplicacao, a.data " +
+                    "from public.aplicacao a inner join public.produto p on a.id_produto = p.id " +
                     $"where p.id = '{id}' " +
-                    $"and a.tipo_movimentacao = '{nameof(TipoMovimentacaoEnum.Aplicacao)}'", conn);
+                    "and a.saldo_aplicacao > 0", conn);
                 using var reader = await cmd.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
-                    //result.Add(new Aplicacao(
-                    //    id: Guid.Parse(reader.GetString(0)), 
-                    //    idProduto:, 
-                    //    valor:, 
-                    //    dataAplicacao: )
-                    
-                    //    //Valor = reader.GetDecimal(0),
-                    //    //Data = reader.GetDateTime(1),
-                    //    //TipoMovimentacao = reader.GetString(2) switch
-                    //    //{
-                    //    //    "Aplicacao" => TipoMovimentacaoEnum.Aplicacao,
-                    //    //    "Resgate" => TipoMovimentacaoEnum.Resgate,
-                    //    //}
-                    //);
+                    result.Add(new Aplicacao(
+                        id: Guid.Parse(reader.GetString(0)),
+                        idProduto: Guid.Parse(reader.GetString(1)),
+                        saldoAplicacao: reader.GetDecimal(2),
+                        valorAplicacao: reader.GetDecimal(3),
+                        dataAplicacao: reader.GetDateTime(4)
+                        ));
                 }
             }
             catch
